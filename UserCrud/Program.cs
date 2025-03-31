@@ -20,6 +20,7 @@ public class Program
         builder.Services.AddScoped<UserCrudDbContext>();
         builder.Services.AddScoped<IUserRepository, UserRepository>();
 
+        builder.Services.AddRouting(option => option.LowercaseUrls = true);
 
         var app = builder.Build();
 

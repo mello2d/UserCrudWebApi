@@ -2,7 +2,7 @@
   {
     "ContainingType": "UserCrud.Controllers.UserController",
     "Method": "Users",
-    "RelativePath": "api/User",
+    "RelativePath": "api/user",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -22,7 +22,7 @@
   {
     "ContainingType": "UserCrud.Controllers.UserController",
     "Method": "Register",
-    "RelativePath": "api/User",
+    "RelativePath": "api/user",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -48,7 +48,7 @@
   {
     "ContainingType": "UserCrud.Controllers.UserController",
     "Method": "SearchById",
-    "RelativePath": "api/User/{id}",
+    "RelativePath": "api/user/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -74,7 +74,7 @@
   {
     "ContainingType": "UserCrud.Controllers.UserController",
     "Method": "UpdateUser",
-    "RelativePath": "api/User/{id}",
+    "RelativePath": "api/user/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -105,7 +105,7 @@
   {
     "ContainingType": "UserCrud.Controllers.UserController",
     "Method": "Delete",
-    "RelativePath": "api/User/{id}",
+    "RelativePath": "api/user/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,

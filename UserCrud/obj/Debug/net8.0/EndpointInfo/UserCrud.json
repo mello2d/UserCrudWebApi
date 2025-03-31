@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/User": {
+    "/api/user": {
       "get": {
         "tags": [
           "User"
@@ -89,7 +89,7 @@
         }
       }
     },
-    "/api/User/{id}": {
+    "/api/user/{id}": {
       "get": {
         "tags": [
           "User"
